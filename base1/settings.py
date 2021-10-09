@@ -144,5 +144,5 @@ MESSAGE_TAGS= {
 
 # Media files setup
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'statics')
+MEDIA_URL = '/statics/'

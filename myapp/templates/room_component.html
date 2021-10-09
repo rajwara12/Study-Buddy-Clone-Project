@@ -14,7 +14,7 @@
 {% for i in rooms %}
 <div class="roomListRoom">
   <div class="roomListRoom__header">
-    <a href="http://127.0.0.1:8000/room/{{i.id}}/" class="roomListRoom__author">
+    <a href="https://studybud12.herokuapp.com//room/{{i.id}}/" class="roomListRoom__author">
       <div class="avatar avatar--small active">
         <img src="{{i.host.avatar.url}}" />
       </div>
@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="roomListRoom__content">
-    <a href="http://127.0.0.1:8000/room/{{i.id}}/">{{i.name}}</a>
+    <a href="https://studybud12.herokuapp.com//room/{{i.id}}/">{{i.name}}</a>
     <p>
       {{i.description}}
     </p>
